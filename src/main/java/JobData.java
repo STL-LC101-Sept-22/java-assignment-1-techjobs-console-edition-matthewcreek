@@ -83,6 +83,9 @@ public class JobData {
                 jobs.add(row);
             }
         }
+        if (jobs.isEmpty()){
+            System.out.println("No Results");
+        }
 
         return jobs;
     }
